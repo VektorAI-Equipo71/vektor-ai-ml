@@ -14,15 +14,13 @@
 
 4) [FlightonTime_3_Random_Forest_todas_las_Aerolineas.ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime_3_Random_Forest_todas_las_Aerolineas.ipynb)
 
-   Con el objetivo de mejorar la predicción, se incorporaron las quince aerolíneas presentes en el intervalo de tiempo de un año. Se realiza una análisis exploratorio y limpieza antes de aplicar un modelo de random forest para las variables seleccionadas por el experto con balanceo de datos, "label encoding" y RandomizedSearchCV.
+   Con el objetivo de mejorar la predicción, se incorporaron las quince aerolíneas presentes en el intervalo de tiempo de un año. Se realiza una análisis exploratorio y limpieza antes de aplicar un modelo de random forest para las variables seleccionadas por el experto con balanceo de datos, "label encoding" y RandomizedSearchCV. Para el uso de la variable de fecha ```FL_DATE```y con el objetivo de no perder información temporal cíclica se crearon las siguientes variables para evitar colinealidad y ruido:
 
- Para el uso de la variable de fecha ```FL_DATE```y con el objetivo de no perder información temporal cíclica se crearon las siguientes variables para evitar colinealidad y ruido:
+         * mes_sin / mes_cos (Capturan estacionalidad anual (Enero ≈ Diciembre))
 
- * mes_sin / mes_cos (Capturan estacionalidad anual (Enero ≈ Diciembre))
+         * dia_semana_sin / dia_semana_cos (Capturan patrón semanal (Lunes ≈ Domingo))
 
-* dia_semana_sin / dia_semana_cos (Capturan patrón semanal (Lunes ≈ Domingo))*
-
-* es_fin_de_semana (Señal clara y simple para Random Forest)
+         * es_fin_de_semana (Señal clara y simple para Random Forest)
 
 5) [FlightonTime _4_Random_Forest_para MVP.ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime__4_Random_Forest_para_MVP.ipynb)
 
