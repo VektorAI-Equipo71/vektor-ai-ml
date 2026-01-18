@@ -4,7 +4,7 @@
    
    Contiene el código para generar los distintos set de datos usados a lo largo del análisis.
 
-2) [FlightonTime_1_EDA y Limpieza .ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime_1_EDA_y_Limpieza_.ipynb)
+2) [FlightonTime_1_EDA y Limpieza .ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime_2__Random_Forest_Regresio%CC%81n_Logi%CC%81stica.ipynb)
    
    Contiene el análisis exploratorio y la limpieza para el set de datos con 109 variables y dos aerolíneas, generando el set de datos. El resumen de dichos procesos se encuentra al comienzo del notebook. 
 
