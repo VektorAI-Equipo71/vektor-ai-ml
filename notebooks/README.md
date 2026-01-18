@@ -22,6 +22,6 @@
 
          * es_fin_de_semana (Señal clara y simple para Random Forest)
 
-5) [FlightonTime _4_Random_Forest_para MVP.ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime__4_Random_Forest_para_MVP.ipynb)
+5) [FlightonTime _4_Random_Forest_para MVP.ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime_4_Random_Forest_para_MVP.ipynb)
 
    Este notebook contiene el modelo fue exportado para uso en Backend. Se trata de random forest con 98 estimadores, profundidad máxima de 22, cantidad mínima de hojas 16, divisiones mínimas =10, clases balanceadas. 
