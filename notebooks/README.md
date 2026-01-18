@@ -1,10 +1,10 @@
 # Notebooks
 
-1) [FlightonTime_0_Armado y Elección del Set de Dataset.ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime_0_Armado_y_Elecci%C3%B3n_del_Set_de_Dataset.ipynb)
+1) [FlightonTime_0_Armado y Elección del Set de Dataset.ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime_0_Armado_y_Eleccion_del_Set_de_Dataset.ipynb)
    
    Contiene el código para generar los distintos set de datos usados a lo largo del análisis.
 
-2) [FlightonTime_1_EDA y Limpieza .ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime_2__Random_Forest_Regresio%CC%81n_Logi%CC%81stica.ipynb)
+2) [FlightonTime_1_EDA y Limpieza .ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime_2_Random_Forest_Regresion_Logistica.ipynb)
    
    Contiene el análisis exploratorio y la limpieza para el set de datos con 109 variables y dos aerolíneas, generando el set de datos. El resumen de dichos procesos se encuentra al comienzo del notebook. 
 
