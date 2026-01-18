@@ -4,11 +4,11 @@
    
    Contiene el código para generar los distintos set de datos usados a lo largo del análisis.
 
-2) [FlightonTime_1_EDA y Limpieza .ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime_2_Random_Forest_Regresion_Logistica.ipynb)
+2) [FlightonTime_1_EDA y Limpieza .ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime_1_EDA_y_Limpieza_.ipynb)
    
    Contiene el análisis exploratorio y la limpieza para el set de datos con 109 variables y dos aerolíneas, generando el set de datos. El resumen de dichos procesos se encuentra al comienzo del notebook. 
 
-3) [FlightonTime_2_ Random_Forest - Regresión Logística.ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime_2__Random_Forest_Regresi%C3%B3n_Log%C3%ADstica.ipynb)
+3) [FlightonTime_2_ Random_Forest - Regresión Logística.ipynb](https://github.com/VektorAI-Equipo71/vektor-ai-ml/blob/main/notebooks/FlightonTime_2_Random_Forest_Regresion_Logistica.ipynb)
    
    Contiene el código para varias pruebas de Random Forest y Regresión Logística para dos aerolíneas. Entre las variaciones está el uso de variables candidatas, variables sólo disponibles antes del vuelo y variables recomendadas por opinión de expertos. Se aplicaron técnicas de oversampling para balancear el set de datos, "label encoding" de variables categóricas y RandomizedSearchCV para buscar los mejores hiperparámetros de los modelos. 
 
